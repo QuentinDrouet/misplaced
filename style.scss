@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family: "Poppins", sans-serif;
+    background-color: #000031;
 }
 
 h1, h2, h3 {
@@ -165,7 +166,6 @@ table {
 }
 
 #planets {
-    background-color: #000031;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,6 +179,7 @@ table {
 
     .planets-ctn {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
@@ -229,7 +230,6 @@ table {
 }
 
 .header {
-    background-color: #000031;
     width: 100%;
     color: white;
     
@@ -273,13 +273,13 @@ table {
 }
 
 .hero-section-planet {
-    background-color: #000031;
     color: white;
     display: flex;
     padding: 60px;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
+    flex-wrap: wrap;
 
     .planet {
         position: absolute;
@@ -321,22 +321,7 @@ table {
     }
 }
 
-.game-pres {
-    //height: 50vh;
-    background-color: #000031;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* .video {
-        width: 900px;
-        height: 600px;
-        background-color: white;
-    } */
-}
-
 #cards {
-    background-color: #000031;
     color: white;
     text-align: center;
     padding: 100px;
@@ -415,8 +400,7 @@ table {
     transition: transform 0.4s;
 }
 
-.team {
-    background-color: #000031;
+#team {
     color: white;
     display: flex;
     flex-direction: column;
