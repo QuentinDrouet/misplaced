@@ -107,7 +107,7 @@ table {
 .hero-section .cta {
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -186,6 +186,8 @@ table {
 }
 #planets .planets-ctn .card div p:last-of-type {
   margin-top: 10px;
+  line-height: 1.5;
+  width: 300px;
 }
 #planets .planets-ctn .card a {
   color: black;
@@ -240,6 +242,13 @@ table {
   padding: 60px;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
+}
+.hero-section-planet .planet {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  width: 175px;
 }
 .hero-section-planet .left h1 {
   font-size: 28px;
@@ -274,28 +283,35 @@ table {
   } */
 }
 
-.cards {
+#cards {
   background-color: #000031;
   color: white;
   text-align: center;
   padding: 100px;
+  position: relative;
 }
-.cards h2 {
+#cards .planet {
+  position: absolute;
+  top: 0;
+  left: -60px;
+  width: 200px;
+}
+#cards h2 {
   font-size: 28px;
   margin-bottom: 100px;
 }
-.cards .all-cards {
+#cards .all-cards {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.cards .all-cards .card {
+#cards .all-cards .card {
   width: 250px;
   height: 250px;
   perspective: 500px;
   cursor: pointer;
 }
-.cards .all-cards .card .content {
+#cards .all-cards .card .content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -303,13 +319,13 @@ table {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.cards .all-cards .card .content .front,
-.cards .all-cards .card .content .back {
+#cards .all-cards .card .content .front,
+#cards .all-cards .card .content .back {
   position: absolute;
   height: 100%;
   width: 100%;
   background: white;
-  color: #03446A;
+  color: black;
   text-align: center;
   font-size: 20px;
   border-radius: 5px;
@@ -318,16 +334,16 @@ table {
   justify-content: center;
   align-items: center;
 }
-.cards .all-cards .card .content .back {
-  background: #03446A;
+#cards .all-cards .card .content .back {
+  background: #41249A;
   color: white;
   transform: rotateY(180deg);
 }
-.cards .all-cards .card .content .back div {
+#cards .all-cards .card .content .back div {
   display: flex;
   flex-direction: column;
 }
-.cards .all-cards .card .content .back p {
+#cards .all-cards .card .content .back p {
   margin: 20px;
   line-height: 1.4;
 }
