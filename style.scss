@@ -405,3 +405,50 @@ table {
     transform: rotateY( 180deg );
     transition: transform 0.4s;
 }
+
+.team {
+    background-color: #000031;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .team-ctn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly !important;
+        gap: 50px;
+        width: 80%;
+        flex-wrap: wrap;
+
+        .team-card { 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+
+            .img-team {
+                width: 75px;
+                height: 75px;
+                border-radius: 100%;
+            }
+
+            p:first-of-type {
+                font-weight: bold;
+            }
+
+            p:last-of-type {
+                color: rgb(191, 189, 189);
+            }
+        }
+    }
+}
