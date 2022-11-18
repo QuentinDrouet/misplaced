@@ -367,7 +367,7 @@ table {
 #team .planet-homepage2 {
   position: absolute;
   top: 0;
-  right: -80px;
+  right: 0;
   width: 200px;
 }
 #team h2 {
