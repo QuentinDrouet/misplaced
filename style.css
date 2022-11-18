@@ -156,6 +156,13 @@ table {
   align-items: center;
   padding: 100px 100px;
   gap: 100px;
+  position: relative;
+}
+#planets .planet-homepage1 {
+  position: absolute;
+  top: 0;
+  left: -80px;
+  width: 200px;
 }
 #planets h2 {
   font-size: 28px;
@@ -355,6 +362,13 @@ table {
   gap: 100px;
   padding-bottom: 100px;
   padding-top: 50px;
+  position: relative;
+}
+#team .planet-homepage2 {
+  position: absolute;
+  top: 0;
+  right: -80px;
+  width: 200px;
 }
 #team h2 {
   font-size: 28px;
